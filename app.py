@@ -7,7 +7,7 @@ import spacy_streamlit # this is the spacy streamlit library
 
 # nlp = spacy.load("en_core_web_sm")
 
-spacy_model = "en core web sm 3.8.0.json"
+spacy_model = "en_core_web_sm"
 
 
 # Create the title and text area for the user to input text
