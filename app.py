@@ -1,4 +1,5 @@
 import spacy
+from spacy import en_core_web_sm
 import streamlit as st
 import spacy_streamlit # this is the spacy streamlit library
 
