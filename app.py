@@ -1,7 +1,9 @@
 import spacy
-from spacy import en_core_web_sm
+from spacy.cli import download
 import streamlit as st
 import spacy_streamlit # this is the spacy streamlit library
+
+download("en_core_web_sm")
 
 # nlp = spacy.load("en_core_web_sm")
 
