@@ -1,4 +1,4 @@
 spacy<3.8.0
-en_core_web_sm
+en_core_web_sm==3.7.1
 spacy-streamlit==1.0.6
 streamlit==1.40.1
