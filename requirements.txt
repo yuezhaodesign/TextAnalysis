@@ -1,4 +1,4 @@
-spacy==3.8.0
-en_core_web_sm==3.8.2
+spacy==3.0.0
+en_core_web_sm==3.0.0
 spacy-streamlit==1.0.6
 streamlit==1.40.1
