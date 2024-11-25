@@ -3,10 +3,6 @@ import spacy
 import streamlit as st
 import spacy_streamlit # this is the spacy streamlit library
 
-# download("en_core_web_sm")
-
-# nlp = spacy.load("en_core_web_sm")
-
 spacy_model = "./en_core_web_sm/en_core_web_sm-3.8.0"
 
 
