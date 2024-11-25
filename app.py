@@ -1,3 +1,4 @@
+import spacy
 import streamlit as st
 import spacy_streamlit # this is the spacy streamlit library
 
