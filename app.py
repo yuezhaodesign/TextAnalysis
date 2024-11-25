@@ -2,7 +2,9 @@ import spacy
 import streamlit as st
 import spacy_streamlit # this is the spacy streamlit library
 
-nlp = spacy.load("en_core_web_sm")
+# nlp = spacy.load("en_core_web_sm")
+
+spacy_model = "en_core_web_sm"
 
 
 # Create the title and text area for the user to input text
@@ -13,7 +15,7 @@ text = st.text_area("Text to analyze", DEFAULT_TEXT, height=220)
 
 
 # Process the text
-doc = nlp(text)
+doc = spacy_streamlit.process_text(spacy_model, text)
 
 # Visualize Named Entity Recognition(NER)
 spacy_streamlit.visualize_ner(
